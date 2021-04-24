@@ -7,6 +7,8 @@
 # Load common rules
 . sql/common.sh init
 
+fail
+
 # clean and create database cluster
 pg_ctl stop -m immediate > /dev/null 2>&1
 rm -fr ${PGDATA}
