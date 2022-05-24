@@ -14,6 +14,7 @@
 #include <getopt.h>
 #include <limits.h>
 #include <signal.h>
+#include <pwd.h>
 #include <time.h>
 #include <unistd.h>
 
